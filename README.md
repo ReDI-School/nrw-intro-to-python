@@ -2,14 +2,14 @@
 
 | Lecture                | Date       | Topic                              | Lesson learning goal                                                           |
 | ---------------------- | ---------- | ---------------------------------- | ------------------------------------------------------------------------------ |
-| [Lecture 1](Lecture1/) | Mon Oct 5  | Introduction                       | InstallationTeacher-Intro                                                      |
+| [Lecture 1](lecture-1/) | Mon Oct 5  | Introduction                       | InstallationTeacher-Intro                                                      |
 | Lecture 2              | Wed Oct 7  | Operators                          | Precedence, Datatypes, Understanding basic data types and operators            |
 | Lecture 3              | Mon Oct 12 | Conditional Operators              | Introduction to loops, Using branching statements, indentation and basic loops |
 | Lecture 4              | Wed Oct 14 | Lists and loops                    | Understanding more advanced looping concepts                                   |
 | Lecture 5              | Mon Oct 19 | Functions                          | Building functions with or without parameters, built-in functions              |
 | Lecture 6              | Wed Oct 21 | Nested Loops                       | Recursion, Using Recursion in functions, nesting loops                         |
 | Lecture 7              | Mon Oct 26 | Dictionaries                       | Sets and Tuples, Being able to use these special data types                    |
-| [Lecture 8](Lecture8/) | Wed Oct 28 | Classes and Inheritance            | Developing classes as simple data stores, helper functions                     |
+| [Lecture 8](lecture-8/) | Wed Oct 28 | Classes and Inheritance            | Developing classes as simple data stores, helper functions                     |
 | Lecture 9              | Mon Nov 2  | Error Handling                     | Applying proper error handling, testing                                        |
 | Lecture 10             | Wed Nov 4  | Intro to source code collaboration | Understand git, make their first commit, push, pull request                    |
 | Lecture 11             | Mon Nov 9  | BUFFER                             |                                                                                |
