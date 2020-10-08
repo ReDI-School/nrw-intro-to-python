@@ -4,7 +4,7 @@
 | ---------------------- | ---------- | ---------------------------------- | ------------------------------------------------------------------------------ |
 | [Lecture 1](lecture-1/) | Mon Oct 5  | Introduction                       | InstallationTeacher-Intro                                                      |
 | [Lecture 2](lecture-2/) | Wed Oct 7  | Operators                          | Precedence, Data types, Understanding basic data types and operators            |
-| Lecture 3              | Mon Oct 12 | Conditional Operators              | Introduction to loops, Using branching statements, indentation and basic loops |
+| [Lecture 3](lecture-3/) | Mon Oct 12 | Conditional Operators              | Introduction to loops, Using branching statements, indentation and basic loops |
 | Lecture 4              | Wed Oct 14 | Lists and loops                    | Understanding more advanced looping concepts                                   |
 | Lecture 5              | Mon Oct 19 | Functions                          | Building functions with or without parameters, built-in functions              |
 | Lecture 6              | Wed Oct 21 | Nested Loops                       | Recursion, Using Recursion in functions, nesting loops                         |
