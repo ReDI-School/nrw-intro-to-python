@@ -4,7 +4,7 @@
 
 1. Classes are defined with the keyword `class` and the name of the class should start with a capital letter e.g. `Person`.
 2. The class fields can be set in the `__init__()` method, e.g. `__init__(self, first_name, last_name, age=0)`. 
-3. A class method can be defined with the keyword `def`, e.g. `def greet(self):` it should `print(f'Hello my name is {self.first_name} {self.last_name} and I am {self.age} years old')
+3. A class method can be defined with the keyword `def`, e.g. `def greet(self):` it should `print(f'Hello my name is {self.first_name} {self.last_name} and I am {self.age} years old')`
 4. To change values inside of instances use the keyword self. `def birthday(self): self.age = self.age +1`
 
 

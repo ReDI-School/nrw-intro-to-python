@@ -3,7 +3,7 @@
 1. Create a new class that represents a *person* 
 2. The person should have fields for a **First Name**, **Last Name** and an **Age** (the age should be a positive number, with a default of 0 assuming a new born)
 3. The person should be able to speak and when greeted (`greet()`) should be able to respond with `Hello my name is <first name> <last name> and I am <age> years old` with the combined name of the persons instance
-4. Ther person should also be able to age, when the birthday (`birthday()`) is happening, the age should increase by `1`
+4. The person should also be able to age, when the birthday (`birthday()`) is happening, the age should increase by `1`
 5. Bonus: Think about other valuable properties that a person could consist of. 
 
 ## Exercise 2 Help - Zoo
