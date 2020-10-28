@@ -9,7 +9,7 @@ class Person:
     def greet(self):
         """Says hello"""
         print(
-            f'Hello my name is {self.first_name} {self.last_name} and I am {self.age} years old')
+            f'Hello my name is  {self.first_name} {self.last_name} and I am {self.age} years old')
 
     def birthday(self):
         """Celebrates birthday, by increasing the age by one"""
