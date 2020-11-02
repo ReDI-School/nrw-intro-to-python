@@ -188,6 +188,95 @@ see [main.py](main.py).
 
 # Testing
 
+```python
+import unittest
+from test import support
+
+class MyTestCase1(unittest.TestCase):
+
+    # Only use setUp() and tearDown() if necessary
+
+    def setUp(self):
+        ... code to execute in preparation for tests ...
+
+    def tearDown(self):
+        ... code to execute to clean up after tests ...
+
+    def test_feature_one(self):
+        # Test feature one.
+        ... testing code ...
+
+    def test_feature_two(self):
+        # Test feature two.
+        ... testing code ...
+
+    ... more test methods ...
+
+class MyTestCase2(unittest.TestCase):
+    ... same structure as MyTestCase1 ...
+
+... more test classes ...
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+
+## Example
+
+
+```python
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+The unittest module can be used from the command line to run tests from modules, classes or even individual test methods:
+
+```shell
+# Test the whole module, a module == file (in this case)
+python3 -m unittest test_module
+
+# Test only one class in the module
+python3 -m unittest test_module.TestClass
+
+# Test only one function in one class in the module
+python3 -m unittest test_module.TestClass.test_method
+```
+
+## py.test
+
+py.test is a no-boilerplate alternative to Python’s standard unittest module.
+
+```shell
+pip install pytest
+```
+
+```python
+# content of test_sample.py
+def func(x):
+    return x + 1
+
+def test_answer():
+    assert func(3) == 5
+```
 
 ## Resources
 
