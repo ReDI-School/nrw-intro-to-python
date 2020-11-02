@@ -154,13 +154,21 @@ class InputError(Error):
 
 # Logging
 
+Purpose: Record progress and problems.
+Levels: Debug, Info, Warning, Error, Critical.
 
 ```python
 import logging
 
+# Get info about logging
+dir(logging)
+
 # Create logger
 logging.basicConfig(level - logging.DEBUG)
 logger = logging.getLogger()
+
+# Levels
+print(logger.level)
 
 # Use the logger
 logger.log("Log message")
@@ -169,6 +177,8 @@ logger.error(err)
 ```
 
 ## Resources
+
+- [Youtube: Logging in Python || Learn Python Programming (Computer Science)](https://www.youtube.com/watch?v=g8nQ90Hk328&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=17)
 
 
 # Error & Logging usage
