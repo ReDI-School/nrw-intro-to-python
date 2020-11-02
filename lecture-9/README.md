@@ -33,7 +33,8 @@ Errors detected during execution are called exceptions and are not unconditional
 '2' + 2
 ```
 
-[Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+- [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+- [Exception hierarchy](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
 
 ```python
 # Base classes
