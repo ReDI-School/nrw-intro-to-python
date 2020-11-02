@@ -1,8 +1,8 @@
 
 class Zoo:
 
-    def __init__(self):
-        self.animals = []
+    def __init__(self, animals = []):
+        self.animals = animals
 
     def visit(self):
         for animal in self.animals:
