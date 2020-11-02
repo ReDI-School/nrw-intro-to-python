@@ -147,8 +147,7 @@ class InputError(Error):
 
 ## Resources
 
-![Youtube: Exceptions in Python || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=nlCKrKGHSSk&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=32)
-
+- [Youtube: Exceptions in Python || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=nlCKrKGHSSk&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=32)
 - [w3schools: Python Error Handling](https://www.w3schools.com/python/gloss_python_error_handling.asp#:~:text=When%20an%20error%20occurs%2C%20or%20exception%20as%20we,raise%20an%20error%2C%20because%20x%20is%20not%20defined%3A)
 - [docs.python: Errors](https://docs.python.org/3/tutorial/errors.html)
 
@@ -280,7 +279,6 @@ def test_answer():
 
 ## Resources
 
-![Youtube: Unit Tests in Python || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=1Lfv5tUGsn8&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=31)
-
+ - [Youtube: Unit Tests in Python || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=1Lfv5tUGsn8&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=31)
 - [docs.python: test](https://docs.python.org/3/library/test.html)
 - [docs.python: unittest](https://docs.python.org/3/library/unittest.html)
