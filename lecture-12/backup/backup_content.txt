@@ -1,0 +1,8 @@
+- **Driver**: Driver is a software component that lets the operating system and a device communicate with each other.
+
+
+
+<img src="https://docs.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/images/whatisadriver01.png" width= 300>
+
+
+The application calls a function implemented by the operating system, and the operating system calls a function implemented by the driver. The driver, which was written by the same company that designed and manufactured the device, knows how to communicate with the device hardware to get the data. After the driver gets the data from the device, it returns the data to the operating system, which returns it to the application.
