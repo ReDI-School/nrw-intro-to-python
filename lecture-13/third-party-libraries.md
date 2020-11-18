@@ -73,6 +73,13 @@ source venv/bin/activate
 
 ---
 
+## Python "modules"
+
+* A "module" in Python is a collection of files within a special folder
+* This folder *must* have an `__init__.py` file
+
+---
+
 ## What Packages can I use?
 
 * Check out the [Awesome Python](https://github.com/vinta/awesome-python) to get some inspiration on some of the most interesting Python packages available.
@@ -81,5 +88,6 @@ source venv/bin/activate
 
 ## Lets do something practical - Django
 
-----
+* https://djangoproject.com
+* https://docs.djangoproject.com/en/3.1/intro/tutorial01/
 
