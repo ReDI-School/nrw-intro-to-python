@@ -11,7 +11,7 @@
         <alignment>center</alignment>
     </image>
     <text data="Click Here" size="36" style="bold">
-        <name>text1</name>
+        <name>text1</name
         <hOffset>250</hOffset>
         <vOffset>100</vOffset>
         <alignment>center</alignment>
