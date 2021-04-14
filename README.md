@@ -15,22 +15,22 @@
 | Free! | Mon Apr 19  | Free! |  |
 | [Lecture 09](lecture-09/) | Wed Apr 21 | Sets and Tuples |  |
 | [Lecture 10](lecture-10/) | Mon Apr 26 | Comprehension |  |
-| [Lecture 11](lecture-11/) | Wed Apr 28 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 12](lecture-12/) | Mon May 03 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 13](lecture-13/) | Wed May 05 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 14](lecture-14/) | Mon May 10 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 15](lecture-15/) | Wed May 12  |  Insert topic                       | Insert lesson learning goal                                                    |
-| Free! | Mon May 17  |  Free!                      | Insert lesson learning goal                                                    |
-| [Lecture 16](lecture-16/) | Wed May 19 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 17](lecture-17/) | Mon May 24 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 18](lecture-18/) | Wed May 26 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 19](lecture-19/) | Mon May 32 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 20](lecture-20/) | Wed Jun 02 |  Insert topic                       | Insert lesson learning goal                                                    |
+| [Lecture 11](lecture-11/) | Wed Apr 28 |  Classes and Inheritance                       | Learn about object oriented programming (OOP) concepts                                                    |
+| [Lecture 12](lecture-12/) | Mon May 03 |  Classes and Inheritance - Advanced                       |                                                     |
+| [Lecture 13](lecture-13/) | Wed May 05 |  Intro to Libraries and the Python Standard Library                      | Learn about using libraries, and get ready for the included one                                                    |
+| [Lecture 14](lecture-14/) | Mon May 10 |  Mathematics: Numpy, Pandas                       |                                                     |
+| [Lecture 15](lecture-15/) | Wed May 12  |  Mathematics: Matplotlib                   |                                                |
+| Free! | Mon May 17  |  Free!                      |    |
+| [Lecture 16](lecture-16/) | Wed May 19 |  Modern Web Services: Flask/Django                      | Learn about RESTful APIs that drive todays webservices                                                    |
+| Free! | Mon May 24 |  Free!                       |                                                     |
+| [Lecture 17](lecture-17/) | Wed May 26 |  Depedency Management                       | All about managing project dependencies, pip and virtual environments                                               |
+| [Lecture 18](lecture-18/) | Mon May 31 |  Project structure                       | Insert lesson learning goal                                                    |
+| [Lecture 19](lecture-19/) | Wed Jun 02 |  Source Code Management with git                       |       Learn the basics of collaborating on source code with multiple developers                                |
 | Free! | Mon Jun 07  |  Free!                       |                                                     |
-| [Lecture 21](lecture-21/) | Wed Jun 09  | Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 22](lecture-22/) | Mon Jun 14 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 23](lecture-23/) | Wed Jun 16 | Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 24](lecture-24/) | Mon Jun 21  |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 25](lecture-25/) | Wed Jun 23  | Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 26](lecture-26/) | Mon Jun 28 |  Insert topic                       | Insert lesson learning goal                                                    |
-| [Lecture 27](lecture-27/) | Wed Jun 30 | Insert topic                       | Insert lesson learning goal                                                    |
+| [Lecture 20](lecture-20/) | Wed Jun 09  | Error handling (and a little primer on Testing)                | In this lesson, we learn how to deal with errors                                              |
+| [Lecture 21](lecture-21/) | Mon Jun 14 |  SCRUM                      | In this lesson, we'll dive into SCRUM, the Agile project framework                                                    |
+| [Lecture 22](lecture-22/) | Wed Jun 16 | Buffer                       |                                                    |
+| [Lecture 23](lecture-23/) | Mon Jun 21  |  Projects!                       | This is your space for the final project                                                    |
+| [Lecture 24](lecture-24/) | Wed Jun 23  | Projects!                       | This is your space for the final project                                                   |
+| [Lecture 25](lecture-25/) | Mon Jun 28 |  Projects                       | This is your space for the final project                                                   |
+| [Lecture 26](lecture-26/) | Wed Jun 30 | Final presentations!                       | This is your space for the final project                                                   |
