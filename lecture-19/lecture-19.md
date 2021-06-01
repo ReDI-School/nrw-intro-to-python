@@ -46,6 +46,9 @@ Depending on the visibility of the repository, this might be public.
 
 ### Init
 
+To see the following steps done in Visual Studio Code instead of the command line,
+check out [this overview](vscode/readme.md)
+
 With name and email set we can create our empty repository. A repository contains
 your code and contains your full history of changes. It can be stored decentralized
 when you work with multiple developers (or if you want that extra bit of security).
