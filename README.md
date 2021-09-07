@@ -20,11 +20,11 @@
 | [Lecture 16](lecture-16/) | Mon Nov 15 |  Modern Web Services: Flask/Django                      | Learn about RESTful APIs that drive todays webservices                                                    |
 | [Lecture 17](lecture-17/) | Wed Nov 17 |  Depedency Management                       | All about managing project dependencies, pip and virtual environments                                               |
 | ~~[Lecture 18](lecture-18/)~~ |  |  ~~Project structure~~                       |                                                   |
-| [Lecture 18](lecture-19/) | Mon Nov 22 |  Source Code Management with git                       |       Learn the basics of collaborating on source code with multiple developers                                |
-| [Lecture 19](lecture-20/) | Wed Nov 24 | Error handling (and a little primer on Testing)                | In this lesson, we learn how to deal with errors                                              |
-| [Lecture 20](lecture-21/) | Wed Dec 01 |  SCRUM                      | In this lesson, we'll dive into SCRUM, the Agile project framework                                                    |
+| [Lecture 18](lecture-18/) | Mon Nov 22 |  Source Code Management with git                       |       Learn the basics of collaborating on source code with multiple developers                                |
+| [Lecture 19](lecture-19/) | Wed Nov 24 | Error handling (and a little primer on Testing)                | In this lesson, we learn how to deal with errors                                              |
+| [Lecture 20](lecture-20/) | Wed Dec 01 |  SCRUM                      | In this lesson, we'll dive into SCRUM, the Agile project framework                                                    |
 | ~~[Lecture 22](lecture-22/)~~ |  | ~~Buffer~~                       |                                                    |
-| [Lecture 21](lecture-23/) | Mon Dec 6  |  Introduction of projects! | This is your space for the final project                                                    |
-| [Lecture 22](lecture-24/) | Wed Dec 8  | Projects!                       | This is your space for the final project                                                   |
-| [Lecture 23](lecture-25/) | Mon Dec 13 |  Projects!                       | This is your space for the final project                                                   |
-| [Lecture 24](lecture-26/) | Wed Dec 15 | Final presentations!                       | This is your space for the final project                                                   |
+| [Lecture 21](lecture-21/) | Mon Dec 6  |  Introduction of projects! | This is your space for the final project                                                    |
+| [Lecture 22](lecture-22/) | Wed Dec 8  | Projects!                       | This is your space for the final project                                                   |
+| [Lecture 23](lecture-23/) | Mon Dec 13 |  Projects!                       | This is your space for the final project                                                   |
+| [Lecture 24](lecture-24/) | Wed Dec 15 | Final presentations!                       | This is your space for the final project                                                   |
