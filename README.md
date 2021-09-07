@@ -19,7 +19,7 @@
 | [Lecture 15](lecture-15/) | Wed Nov 10  |  Mathematics: Matplotlib                   |                                                |
 | [Lecture 16](lecture-16/) | Mon Nov 15 |  Modern Web Services: Flask/Django                      | Learn about RESTful APIs that drive todays webservices                                                    |
 | [Lecture 17](lecture-17/) | Wed Nov 17 |  Depedency Management                       | All about managing project dependencies, pip and virtual environments                                               |
-| ~~[Lecture 18](lecture-18/)~~ |  |  ~~Project structure~~                       | Insert lesson learning goal                                                    |
+| ~~[Lecture 18](lecture-18/)~~ |  |  ~~Project structure~~                       |                                                   |
 | [Lecture 19](lecture-19/) | Mon Nov 22 |  Source Code Management with git                       |       Learn the basics of collaborating on source code with multiple developers                                |
 | [Lecture 20](lecture-20/) | Wed Nov 24 | Error handling (and a little primer on Testing)                | In this lesson, we learn how to deal with errors                                              |
 | [Lecture 21](lecture-21/) | Wed Dec 01 |  SCRUM                      | In this lesson, we'll dive into SCRUM, the Agile project framework                                                    |
