@@ -6,8 +6,8 @@ Introduce you to the basic mathematical concepts in Python.
 We will cover
 
 1. Basic mathematics (Addition, Substraction, Division, Multiplication, Mudolo)
-2. Comparison between variables
-3. Math and Numpy library
+2. Comparison
+3. Math library
 4. Basic statistics
 5. Lambda
 
