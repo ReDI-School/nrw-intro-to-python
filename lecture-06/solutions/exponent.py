@@ -6,4 +6,4 @@ result = 1
 while num > 0:
     result = result * base
     num = num - 1
-print(f'{base} raised to the power of {exp} is: {result}')
+print(f'{base} raised to the power of {exp} is: {result}. ({base} ** {exp} = {base**exp})')
