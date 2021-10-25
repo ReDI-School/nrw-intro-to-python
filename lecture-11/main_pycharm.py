@@ -1,5 +1,5 @@
 
-#parent class
+# parent class
 class Employee:
     def __init__(self, name, salary=30000):
         self.name = name
@@ -8,7 +8,7 @@ class Employee:
     def give_raise(self, amount):
         self.salary += amount
 
-#child class
+# child class
 class Manager(Employee):
     # Add a constructor
     def __init__(self, name, salary=50000, project=None):
@@ -20,4 +20,8 @@ class Manager(Employee):
 
     def display(self):
         print("Manager ", self.name)
+
+#main
+
+
 
