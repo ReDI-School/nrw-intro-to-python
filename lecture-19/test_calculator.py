@@ -9,15 +9,10 @@ def tearDownModule():
 
 class TestCalculator(unittest.TestCase):
 
-    # Create an instance of the calculator that can be used in all tests
-    @classmethod
-    def setUpClass(self):
-        print('Set up class')
+    # Ahead of every test, create a new calculator instance
+    def setUp(self):
+        print('Creating a new calculator')
         self.calc = Calculator()
-
-    @classmethod
-    def tearDownClass(self):
-        print('Tear down class')
 
     # Write test methods for subtract, multiply, and divide
     def test_add(self):
@@ -30,8 +25,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(2, 7), 14, msg=None) 
 
     def test_divide(self):
-        self.assertEqual(self.calc.divide(4, 2), 2, msg=None)           
+        self.assertEqual(self.calc.divide(4, 2), 2, msg=None)  
 
-
-if __name__ == '__main__':
-    unittest.main()
+    @unittest.expectedFailure  # <- division by zero should actually raise an error
+    def test_divide_by_zero(self):
+        self.calc.divide(4, 0)
