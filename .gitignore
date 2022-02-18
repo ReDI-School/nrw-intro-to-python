@@ -1,7 +1,9 @@
 .envrc
 venv
-.venv
-.DS_Store
+**/.venv
+**/.DS_Store
+**/.vscode
+**/.idea
 
 __pycache__/
 .ipynb_checkpoints/
