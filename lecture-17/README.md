@@ -1,65 +1,16 @@
-# What are RESTful APIs?
-'[...] architectural style for an application program interface (API) that uses HTTP requests to access and use data'  
-(https://searchapparchitecture.techtarget.com/definition/RESTful-API)  
+# Lecture 17: REST APIs with FastAPI
+## Goal for this Lecture
+You will learn how to use python to operate a webserver that can be used not only by humans but other computers too!
 
-It allows a standadized communication between the user, front-end and the databases:  
-![alt text](img/rest.png "Rest Flow example")
+## Contents
+* Concept of REST APIs
+* HTTP Methods and Status Codes
+* Introduction to FastAPI
+## Learning Targets
+After completing this lecture, you should have python installed on your computer and be able to start it.
+## Prerequisites
+You should have good command of previous topics covered in this course, e.g.:
+* Functions and type hints
+* (Data)Classes in Python
 
-You can as well manage the following important tasks:
-- Access control
-- Middleware (e.g. IP logging, exception handling, etc.)
-- User sessions
-- Data processing
-
-
-So it is a way to send and receive data most often in form of json (you can compare this to a Python dictionary):  
-JSON
-```
-{
-    "tpye": "info",
-    "msg": "You look good!",
-    "items": [1, 2, 3, 4]
-}
-```
-
-To get or send data you need to select the correct method...
-
-## Methods
-### GET
-Do a request to the API to get info out of it
-### POST
-Do a request to the API to send data to the server
-### DELETE
-Do a request to the API to delete info from the server
-
-### Other
-PATCH, OPTIONS, PUT
-
-## HTTP Status Codes
-### 200
-All good your request resulted in a successful response
-### 404
-
-### 403
-You are not authorized to do this request --> maybe wrong credentials
-### And many many more
---> https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-
-
-# Python Frameworks
-(https://rapidapi.com/blog/best-python-api-frameworks/)
-
-- Flask (https://palletsprojects.com/p/flask/) --> Most popular
-- Django (https://www.djangoproject.com/) --> Full stack web framework (it can do everything)
-- FastAPI (https://fastapi.tiangolo.com/) --> New and very fast (async)
-- Sanic (https://sanicframework.org/en/) --> Lightweight
-- Falcon (https://falcon.readthedocs.io/en/stable/) --> Large applications and class-based
-
-# Some example API documentations you can check
-- https://developer.twitter.com/en/docs/twitter-api
-- https://developers.google.com/maps/documentation/places/web-service/search?hl=de
-- https://developers.facebook.com/docs/instagram/oembed
-
-
-
-
+For additionally required packages, please refer to [example/requirements.txt](example/requirements.txt)
