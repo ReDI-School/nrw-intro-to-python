@@ -1,104 +1,75 @@
-from fastapi import FastAPI
-import uvicorn
-from utils.database import read_db
-from utils.database import write_db, get_sql_engine
-from collections import ChainMap
-import emojis
+from pydantic.dataclasses import dataclass
+import json
+from typing import Optional
 
-app = FastAPI()
+from fastapi import FastAPI, status, Body
+from fastapi.responses import JSONResponse
 
-@app.get('/sqlite/create_table')
-def create_table():
-    # Get Database connection
-    con = get_sql_engine()
-    # Get Database Cursor
-    cursor = con.cursor()
-
-    cursor.execute('''
-        CREATE TABLE animals (
-            animal_name VARCHAR,
-            animal_pic VARCHAR
-        );
-    ''')
-
-    return {'Info': 'Database Table created'}
-
-@app.post('/sqlite/add_animal')
-def add_user_to_sqlite(animal_name: str, animal_pic: str):
-    # Get Database connection
-    con = get_sql_engine()
-    # Get Database Cursor
-    cursor = con.cursor()
+from utils.database import DatabaseConnection, UnknownKeyException
 
 
-    cursor.execute(f"""
-        INSERT INTO animals VALUES ('{animal_name}', '{animal_pic}')
-    """)
+@dataclass
+class Animal:
+    name: str
+    max_age: int
+    picture: str = ''
 
-    con.commit()
-    con.close()
+app = FastAPI(
+    title="Little Zoo API",
+    version="1.0.0",
+    contact={
+        "name": "ReDi School NRW",
+        "url": "https://de.redi-school.org/nrw",
+    },
+    description="Example of a simple API powered by FastAPI"
+)
 
-    return {'Info': f'Success I added {animal_name}'}
+# Create a fake database connection that stores all data in
+# file on disk.
+db = DatabaseConnection('zoo.json', Animal, 'name')
 
-@app.get('/sqlite/get_animal')
-def get_user(animal_name: str):
-    # Get Database connection
-    con = get_sql_engine()
-    # Get Database Cursor
-    cursor = con.cursor()
+@app.get(
+    '/list',
+    response_model=list[Animal],    
+)
+def list_animals():
+    return db.get_all_items()
 
-    animal_pics = cursor.execute(f'''
-        SELECT animal_pic FROM animals WHERE animal_name = '{animal_name}'
-    ''')
+@app.get(
+    '/{animal_name}',
+    response_model=Animal,
+)
+def get_single_animals(animal_name: str):
+    try:
+        return db.get_item_by_key(animal_name)
+    except UnknownKeyException:
+        return JSONResponse(
+            status_code=status.HTTP_404_NOT_FOUND,
+            content='No animal by that name known',
+        )
 
-    for p in animal_pics:
-        # Assign the pic value to animal_pic
-        animal_pic = p[0]
+@app.delete(
+    '/{animal_name}',
+    status_code=status.HTTP_204_NO_CONTENT,  # expect no response from server.
+)
+def delete_animal(animal_name: str):
+    try:
+        db.delete_item_under_key(animal_name)
+    except UnknownKeyException:
+        return JSONResponse(
+            status_code=status.HTTP_404_NOT_FOUND,
+            content='No animal by that name known',
+        )
 
-    return {f'{animal_name} looks like': f'{emojis.encode(f":{animal_pic}:")}'}
-
-
-@app.get('/')
-def my_root():
-    return {'Hello': 'World'}
-
-@app.get('/goat-town')
-def my_animal():
-    return {'Info': 'You have to tell me which goat you want to visit'}
-
-@app.get('/goat-town/goat')
-def my_animal():
-    return {'I am a': emojis.encode(':goat:')}
-
-@app.get('/cat-town/goat')
-def my_animal():
-    return {'Error': 'Here is no goat'}
-
-@app.get('/cat-town/cat')
-def my_animal():
-    return {'I am a': emojis.encode(':cat:')}
-
-
-@app.get('/animals')
-def read_animal(animal_name: str, age: int):
-    animals = read_db()
-    animals_dict = dict(ChainMap(*animals['items']))
-
-    if animal_name in animals_dict.keys():
-        animal_pic = emojis.encode(f':{animals_dict.get(animal_name)}:')
-        return {f'{animal_name} looks like this and is {age} years old': animal_pic}
-    else:
-        return {'error': f'{animal_name} does not exist in database'}
-
-
-@app.post("/animals")
-def update_animal(animal_name: str, animal_pic: str):
-    new_animal = {animal_name: animal_pic}
-    
-    write_db(new_animal)
-
-    return {"info": f"Added {animal_name} to the database"}
-
+@app.post(
+    "/add",
+    status_code=status.HTTP_201_CREATED,  # HTTP status code for successfully creating object
+)
+def create_animal(animal: Animal):
+    db.add_item(animal)
+    return db.get_item_by_key(animal.name)
 
 if __name__ == '__main__':
-    uvicorn.run(app, host='0.0.0.0', port=54321)
+    import uvicorn
+    uvicorn.run(app, host='0.0.0.0', port=8080)
+
