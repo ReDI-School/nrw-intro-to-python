@@ -1,6 +1,7 @@
 # Lecture 03: Basic Data Types
 ## Goal for this Lecture
-Introduce you to the basic data types that allow to store numbers, text and other pieces of information in variables.
+Storing, reading, writing, and manipulating data is fundamental to programming. 
+This lecture will introduce you to the basic data types that allow to store numbers, text and other pieces of information in variables.
 
 ## Contents
 We will cover
