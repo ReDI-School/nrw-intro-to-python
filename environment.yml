@@ -1,0 +1,19 @@
+# This environment should contain all packages required to complete the course.
+# It is used as when you create an instance of this repo on mybinder:
+# https://mybinder.org/v2/gh/redi-school/nrw-intro-to-python/HEAD 
+name: redi
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - matplotlib
+  - dill
+  - pandas
+  - fastapi
+  - pydantic[dotenv]
+  - git
+  - seaborn
+  - bokeh
+  - dask
+  - uvicorn
