@@ -2,13 +2,13 @@
 
 # Variables
 
-A variable stores all kinds of data types like `int`, `lists` and even `objets`.
+A variable stores all kinds of data types like `int`, `lists` and even `objects`.
 If you create a variable you give it a proper name like `my_interesting_var` and assign a value with `=` and the value of your choice:
 `my_interesting_var = 5`
 
 If you want to check what your variable holds you can just print it out: `print(my_interesting_var)` --> `5`
 
-- In python you use `_` underscore for variables (Snake Case) --> `my_var`. Do not use CamelCase like `myVar` for your variables.
+- In python you use `_` underscore to separate out distinct words in variables (snake_case) --> `my_var`. Do not use camelCase like `myVar` for your variables. (It is not Pythonic!).
 - You can but you don't have to define the data type the variable is holding --> `my_var: int = 5` or `my_var = 5` is correct
 
 <span style="color:red">Your good friend Luca told you his age is 42. Please create a variable with a proper name and assign his age to it.
