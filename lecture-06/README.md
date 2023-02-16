@@ -1,16 +1,12 @@
-# Lecture 06: Control Flow
+# Lecture 06: Recap
 ## Goal for this Lecture
-Introduce you to the basic mechanisms in Python to control the sequence in which instructions in your program are executed (control the _"flow"_ of the program).
+Revision for chapters 03, 04, 05, and 06.
 
 ## Contents
-We will cover
-
-1. If/else statements to execute statements based on conditions at the time of execution
-2. for-Loops to execute statements multiple times
-3. while loops (to repeat code until a condition is met)
+We will solve more exercism challenges.
 
 ## Learning Targets
-After completing this lecture, you should be able to use the above mentioned flow control mechanisms in your Python programs.
+After completing this lecture, you should have solved all exercism challenges upto [List Methods](https://exercism.org/tracks/python/concepts/list-methods).
 
 ## Prerequisites
 You should have
@@ -18,3 +14,5 @@ You should have
 * Python installed
 * Be able to interact with Jupyter Notebooks (preferably using Jupyter Lab)
 * Have an understanding of basic Python datatypes (in particular, `bool` variables)
+* Create an account on [exercism](https://exercism.org/) and join the [Python track](https://exercism.org/tracks/python)
+* Solve all early challenges before lists
