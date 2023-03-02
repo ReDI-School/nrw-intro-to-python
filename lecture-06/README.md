@@ -1,9 +1,9 @@
-# Lecture 06: Recap
+# Lecture 06: Code Katas with Exercism
 ## Goal for this Lecture
-Revision for chapters 03, 04, 05, and 06.
+Revision for chapters 03, 04, and 05.
 
 ## Contents
-We will solve more exercism challenges.
+We will solve more exercism challenges, ensuring that all challenges upto [List Methods](https://exercism.org/tracks/python/concepts/list-methods) are solved.
 
 ## Learning Targets
 After completing this lecture, you should have solved all exercism challenges upto [List Methods](https://exercism.org/tracks/python/concepts/list-methods).
