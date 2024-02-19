@@ -12,10 +12,10 @@
 | [Lecture 07](lecture-07/) | Functions                                          | Re-use your code using functions                                          |
 | [Lecture 08](lecture-08/) | Practice & review                                  |                                                                           |
 | [Lecture 09](lecture-09/) | Comprehension                                      | Write efficient and readable code working with lists, dicts, and sets    |
-| [Lecture 10](assignment1_tictactoe/) |                                         |                
+| [Lecture 10](assignment1_tictactoe/)                                           |                
                                        |
 | [Lecture 13](lecture-10/) | Classes and Inheritance                            | Learn about object oriented programming (OOP) concepts              
-[Classes and Inheritance - Advanced](lecture-11/) |                              |                                    
+[Classes and Inheritance - Advanced](lecture-11/)                              |                                    
 | [Lecture 12](lecture-12/) | Intro to Libraries and the Python Standard Library | Learn about using libraries, and get ready for the included one         |
 | [Lecture 13](lecture-13/) | Error handling (and a little primer on Testing)    | In this lesson, we learn how to deal with errors                       |
 | [Lecture 15](lecture-15/) | Mathematics: Numpy, Pandas                         | Work with numbers and data in python                                 |
