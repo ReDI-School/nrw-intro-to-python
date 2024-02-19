@@ -10,7 +10,7 @@
 | [Lecture 05](lecture-05/) | Sets and Tuples                                    |                                                                           |
 | [Lecture 06](lecture-06/) | Flow Control                                       | Write conditional and repeating code using flow control structures        |
 | [Lecture 07](lecture-07/) | Functions                                          | Re-use your code using functions                                          |
-| [Lecture 08](lecture-08/) | Buffer                                             |                                                                           |
+| [Lecture 08](lecture-08/) | Practice & review                                             |                                                                           |
 | [Lecture 09](lecture-09/) | Comprehension                                      | Write efficient and readable code working with lists, dicts, and sets     |
 | [Lecture 10](lecture-10/) | Classes and Inheritance                            | Learn about object oriented programming (OOP) concepts                    |
 | [Lecture 11](lecture-11/) | Classes and Inheritance - Advanced                 |                                                                           |
