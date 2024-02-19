@@ -8,16 +8,16 @@
 | [Lecture 03](lecture-03/) | Basic Data Types                                   | Learn about basic data types                                              |
 | [Lecture 04](lecture-04/) | Lists and Dictionaries                             |                                                                           |
 | [Lecture 05](lecture-05/) | Sets and Tuples                                    |                                                                           |
-| [Lecture 06](lecture-06/) | Flow Control                                       | Write conditional and repeating code using flow control structures        |
+| [Lecture 06](lecture-06/) | Flow Control                                       | Write conditional and repeating code using flow control structures     |
 | [Lecture 07](lecture-07/) | Functions                                          | Re-use your code using functions                                          |
 | [Lecture 08](lecture-08/) | Buffer                                             |                                                                           |
-| [Lecture 09](lecture-09/) | Comprehension                                      | Write efficient and readable code working with lists, dicts, and sets     |
-| [Lecture 10](lecture-10/) | Classes and Inheritance                            | Learn about object oriented programming (OOP) concepts                    |
+| [Lecture 09](lecture-09/) | Comprehension                                      | Write efficient and readable code working with lists, dicts, and sets    |
+| [Lecture 10](lecture-10/) | Classes and Inheritance                            | Learn about object oriented programming (OOP) concepts             |
 | [Lecture 11](lecture-11/) | Classes and Inheritance - Advanced                 |                                                                           |
-| [Lecture 12](lecture-12/) | Intro to Libraries and the Python Standard Library | Learn about using libraries, and get ready for the included one           |
-| [Lecture 13](lecture-13/) | Error handling (and a little primer on Testing)    | In this lesson, we learn how to deal with errors                          |
+| [Lecture 12](lecture-12/) | Intro to Libraries and the Python Standard Library | Learn about using libraries, and get ready for the included one         |
+| [Lecture 13](lecture-13/) | Error handling (and a little primer on Testing)    | In this lesson, we learn how to deal with errors                       |
 | [Lecture 14](lecture-14/) | Buffer                                             |                                                                           |
-| [Lecture 15](lecture-15/) | Mathematics: Numpy, Pandas                         | Work with numbers and data in python                                      |
+| [Lecture 15](lecture-15/) | Mathematics: Numpy, Pandas                         | Work with numbers and data in python                                 |
 | [Lecture 16](lecture-16/) | Mathematics: Matplotlib                            | Create visualizations using python                                        |
 | [Lecture 17](lecture-17/) | Modern Web Services: FastAPI                       | Learn about RESTful APIs that drive todays webservices                    |
 | [Lecture 18](lecture-18/) | Depedency Management                               | All about managing project dependencies, pip and virtual environments     |
